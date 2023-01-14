@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+/*
+
+*/
+
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: 'Overpass', sans-serif;
+    font-size: 15px;
+    background-color: hsl(216, 12%, 8%);
+    margin: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+p
+{
+    line-height: 1.8;
+}
+
+.main_container, .thank_you
+{
+    background-color: hsl(213, 19%, 18%);
+    padding: 2rem;
+    border-radius: 0.625rem;
+    max-width: 400px;
+}
+
+.main_container h1
+{
+    color: hsl(0, 0%, 100%);
+    margin: 2rem 0 1rem;
+}
+
+
+.main_container img
+{
+    background-color: hsl(213,20%,22%);
+    padding: 0.5rem;
+    border-radius: 50%;
+}
+
+.main_container p
+{
+    color: hsl(216, 12%, 54%);
+    margin-bottom: 1rem;
+}
+
+.main_container ul
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.main_container ul li button
+{
+    width: 3rem;
+    height: 3rem;
+    border: none;
+    background-color: hsl(213,20%,22%);
+    color: hsl(216, 12%, 54%);
+    border-radius: 50%;
+    font-weight: 700;
+    padding-top: 0.2rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.main_container ul li button:hover
+{
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+
+.main_container ul li button:focus
+{
+    background-color: hsl(217, 12%, 63%);
+    color: white;
+}
+
+.btn_submit
+{
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    font-weight: 400;
+    width: 100%;
+    padding: 0.8rem 0 0.6rem;
+    border: none;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    letter-spacing: 0.1px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn_submit:hover
+{
+    color: hsl(25, 97%, 53%);
+    background-color: white;
+}
+.thank_you
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.thank_you img
+{
+    display: block;
+    margin: 0 auto 2rem;
+}
+
+.thank_you p.gray
+{
+    background-color: hsl(213,20%,22%);
+    border-radius: 30px;
+    color: hsl(25, 97%, 53%);
+    padding: 0.2rem 0.5rem 0;
+    font-size: 0.9rem;
+    margin-bottom: 2rem;
+}
+
+.thank_you h2
+{
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.thank_you p
+{
+    color: hsl(217, 12%, 63%);
+    margin-bottom: 2rem;
+}
+
+button
+{
+    font-family: inherit;
+}
+
+.hidden
+{
+    display: none;
+}
+
+ul
+{
+    list-style: none;
+}
